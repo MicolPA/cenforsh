@@ -1,0 +1,14 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.enlaces-menu a:hover{
+	background: #0d29b8;
+	color:white !important;
+}
+
+.bg-blue{background:#0d29b8}
+
+
+.display-7{font-size: 12px}
