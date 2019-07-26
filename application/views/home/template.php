@@ -102,6 +102,10 @@
 		</div>
 	</div>
 
+	<footer>
+		
+	</footer>
+
 	<!-- loading view -->
 	<div class="container">
 	</div>
