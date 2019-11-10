@@ -7,24 +7,24 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="<?php echo base_url('assets/images/stock/meeting_1.jpg') ?>" class="d-block w-100" height='600px '>
+        <img src="<?php echo base_url('assets/images/galeria/fundacion-cenforsh-5.jpg') ?>" class="d-block w-100" height='600px '>
         <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-3" style="text-shadow: 2px 2px 4px #000000;">First slide label</h3>
-          <p style="text-shadow: 2px 2px 4px #000000;font-size:20px">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 class="display-3" style="text-shadow: 2px 2px 4px #000000;">CENFORSH</h3>
+          <p class="display" style="text-shadow: 2px 2px 4px #000000;font-size:24px">Estamos muy agradecidos y creemos que esto debería fortalecerse aún más</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="<?php echo base_url('assets/images/stock/meeting_3.jpg') ?>" class="d-block w-100" height='600px '>
+        <img src="<?php echo base_url('assets/images/galeria/fundacion-cenforsh-3.jpg') ?>" class="d-block w-100" height='600px '>
         <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-3" style="text-shadow: 2px 2px 4px #000000;">First slide label</h3>
-          <p style="text-shadow: 2px 2px 4px #000000;font-size:20px">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 class="display-3" style="text-shadow: 2px 2px 4px #000000;">CENFORSH</h3>
+          <p class="display" style="text-shadow: 2px 2px 4px #000000;font-size:20px">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="<?php echo base_url('assets/images/stock/meeting_2.jpg') ?>" class="d-block w-100" height='600px '>
+        <img src="<?php echo base_url('assets/images/galeria/fundacion-cenforsh-6.jpg') ?>" class="d-block w-100" height='600px '>
         <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-3" style="text-shadow: 2px 2px 4px #000000;">First slide label</h3>
-          <p style="text-shadow: 2px 2px 4px #000000;font-size:20px">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 class="display-3" style="text-shadow: 2px 2px 4px #000000;">CENFORSH</h3>
+          <p class="display" style="text-shadow: 2px 2px 4px #000000;font-size:20px">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
       </div>
     </div>
@@ -85,10 +85,12 @@
 </div>
 
 <div class="container-fluid mb-5 mt-5"> 
-  <div class="row shadow align-items-end" style="background-image: url(<?php echo base_url('assets/images/stock/meeting_1.jpg') ?>);height: 400px;background-repeat: no-repeat;background-size: cover;">
-    <div class="col-md-12">
-      <h3 class="text-white text-center" style="text-shadow: 2px 2px 4px #000000;">Lorem ipsum dolor sit amet.</h3>
-      <p class="text-white text-center" style="text-shadow: 2px 2px 4px #000000;font-size: 18px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore illum vero labore perferendis laborum aspernatur!</p>
+  <div class="row shadow align-items-center" style="background-image: url(<?php echo base_url('assets/images/stock/meeting_1-dark.jpg') ?>);height: 400px;background-repeat: no-repeat;background-size: cover;">
+    <div class="container">
+      <div class="col-md-12">
+      <h3 class="text-white text-center mb-4 display display-4" style="text-shadow: 2px 2px 4px #000000;">Nuestro objetivo</h3>
+      <p class="text-white text-center display" style="text-shadow: 2px 2px 4px #000000;font-size: 22px">Poner al servicio de los más vulnerables y deprimidos de la sociedad los conocimientos en los diferentes aspectos que conforman el desarrollo integral del Ser Humano, sean estos científicos, profesionales, técnicos, vocacionales, culturales, deportivos, asistenciales, entre otros.</p>
+    </div>
     </div>
   </div>
 </div>

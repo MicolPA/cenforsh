@@ -16,22 +16,22 @@
 		<div class="container">
 			<div class="row p-1 pt-2 pb-2 pl-4 text-white display-7" >
 				<div class="col-lg-3">
-					<i class="fas fa-home mr-1"></i> Direccion Lorem ipsum dolor sit amet.
+					<i class="fas fa-home mr-1"></i> Ave. Máximo Gomez esq. José Contrera, plaza Royal frente a Utesa.
 				</div>
 				<div class="col-lg-2">
 					<i class="fas fa-phone-alt mr-1"></i> 809-000-0000
 				</div>
-				<div class="col-lg-2">
-					<i class="fas fa-envelope mr-1"></i> correo@correo.com
+				<div class="col-lg-3">
+					<i class="fas fa-envelope mr-1"></i> cenforsh.org.do@gmail.com
 				</div>
-				<div class="col-lg-5 text-center">
+				<div class="col-lg-4 text-center">
 					
 					<!-- <a href="" class="mr-4 p-1 " style="background: white"><img src="<?php echo base_url('assets/images/icon/facebook-icon.png') ?>" width='20px' alt=""></a>
 					<a href="" class="mr-4 p-1 " style="background: white"><img src="<?php echo base_url('assets/images/icon/instagram-icon.png') ?>" width='20px' alt=""></a>
 					<a href="" class="mr-4 p-1 " style="background: white"><img src="<?php echo base_url('assets/images/icon/twitter-icon.png') ?>" width='20px' alt=""></a> -->
-					<a href="" class="mr-4"><i class="fab fa-facebook-f"></i></a>
-					<a href="" class="mr-4"><i class="fab fa-twitter"></i></a>
-					<a href="" class="mr-4"><i class="fab fa-instagram"></i></a>
+					<a href="" class="mr-4" style="color: white;font-size: 14px"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://twitter.com/CenforshRD" class="mr-4" style="color: white;font-size: 14px"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.instagram.com/Cenforshrd/" class="mr-4" style="color: white;font-size: 14px"><i class="fab fa-instagram"></i></a>
 				</div>
 			</div>
 		</div>
@@ -40,7 +40,7 @@
 	<div class="container-fluid">
 		<div class="row align-items-center">
 			<div class="col-md-2 text-center">
-				<img src="<?php echo base_url('assets/images/logo.png') ?>" width='140px' alt="">
+				<a href="<?php echo base_url('home') ?>"><img src="<?php echo base_url('assets/images/logo-vertical.png') ?>" width='330px' class='p-2'></a>
 			</div>
 			<div class="col-md-10">
 				
@@ -64,13 +64,13 @@
 					<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
 					    <ul class="navbar-nav">
 					      <li class="nav-item active mr-3 enlaces-menu">
-					        <a class="nav-link" href="#"><?php echo strtoupper('Nosotros') ?></a>
+					        <a class="nav-link" href="<?php echo base_url('home/nosotros') ?>"><?php echo strtoupper('QUIENES SOMOS') ?></a>
 					      </li>
 					      <li class="nav-item active mr-3 enlaces-menu">
-					        <a class="nav-link" href="#"><?php echo strtoupper('Servicios') ?></a>
+					        <a class="nav-link" href="<?php echo base_url('home/servicios') ?>"><?php echo strtoupper('Servicios') ?></a>
 					      </li>
 					      <li class="nav-item active mr-3 enlaces-menu">
-					        <a class="nav-link" href="#"><?php echo strtoupper('Articulos') ?></a>
+					        <a class="nav-link" href="<?php echo base_url('home/articulos') ?>"><?php echo strtoupper('Articulos') ?></a>
 					      </li>
 					      <li class="nav-item active mr-3 enlaces-menu">
 					        <a class="nav-link" href="#"><?php echo strtoupper('Actividades') ?></a>
@@ -79,23 +79,44 @@
 					        <a class="nav-link" href="#"><?php echo strtoupper('Donaciones') ?></a>
 					      </li>
 					      <li class="nav-item active mr-3 enlaces-menu">
-					        <a class="nav-link" href="#"><?php echo strtoupper('Programar') ?></a>
-					      </li>
-					      <li class="nav-item active mr-3 dropdown">
-					        <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo strtoupper('Dropdown') ?></a>
-					        <div class="dropdown-menu" aria-labelledby="dropdown08">
-					          <a class="dropdown-item" href="#">Nosotros</a>
-					          <a class="dropdown-item" href="#">Servicios</a>
-					          <a class="dropdown-item" href="#">Articulos</a>
-					          <a class="dropdown-item" href="#">Actividades</a>
-					          <a class="dropdown-item" href="#">Donaciones</a>
-					          <a class="dropdown-item" href="#">Programar</a>
-					        </div>
+					        <a class="nav-link" href="<?php echo base_url('home/programas') ?>"><?php echo strtoupper('Programas') ?></a>
 					      </li>
 					    </ul>
 					</div>
 				</nav>
 				<?php $this->load->view($view);?>
+
+
+				<footer class="col-md-12 bg-dark pb-5 pt-5 mt-5">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<p class=" text-white" style="font-size: 24px">Nosotros</p>
+								<hr class="text-white">
+								<ul class="list-unstyled text-white" style="font-size: 14px">
+									<li><i class="fas fa-home mr-1"></i> Dirección</li>
+									<p>Ave. Máximo Gomez esq. José Contrera, plaza Royal frente a Utesa.</p>
+									<li><i class="fas fa-phone-alt mr-1"></i> Teléfono</li>
+									<p>809-000-0000</p>
+									<li><i class="fas fa-envelope mr-1"></i> Email</li>
+									<p>cenforsh.org.do@gmail.com</p>
+								</ul>
+							</div>
+
+							<div class="col-md-6">
+								<p class=" text-white" style="font-size: 24px">Redes</p>
+								<hr class="text-white">
+								<!-- <a href="" class="mr-4 display-4 text-primary"><i class="fab fa-facebook-f"></i></a>
+								<a href="" class="mr-4 display-4 text-white"><i class="fab fa-twitter"></i></a>
+								<a href="" class="mr-4 display-4 text-danger"><i class="fab fa-instagram"></i></a> -->
+
+								<a href="" target="_blank" class="mr-4 p-1"><img src="<?php echo base_url('assets/images/icon/facebook-icon.png') ?>" width='35px' alt=""></a>
+								<a href="https://www.instagram.com/Cenforshrd/" target="_blank" class="mr-4 p-1"><img src="<?php echo base_url('assets/images/icon/instagram-icon.png') ?>" width='35px' alt=""></a>
+								<a href="https://twitter.com/CenforshRD" target="_blank" class="mr-4 p-1"><img src="<?php echo base_url('assets/images/icon/twitter-icon.png') ?>" width='35px' alt=""></a>	
+							</div>
+						</div>
+					</div>
+				</footer>
 
 			</div>
 		</div>
