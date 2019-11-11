@@ -3,7 +3,7 @@
 <div class="container">
 	<div class="row mt-5">
 		<div class="col-md-12 mb-4">
-			<h1 class="display-4 text-primary mb-3">Articulos</h1>
+			<h1 class="display-4 text-primary mb-3">Articulos y Publicaciones</h1>
 			<hr>
 		</div>
 		

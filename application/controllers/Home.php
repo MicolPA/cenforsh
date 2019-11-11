@@ -38,4 +38,10 @@ class Home extends CI_Controller {
 		$data['title'] = 'Articulos';
 		$this->load->view('home/template', $data);
 	}
+
+	public function eventosInternacionales(){
+		$data['view'] = 'home/eventos-internacionales';
+		$data['title'] = 'Inicio';
+		$this->load->view('home/template', $data);
+	}
 }

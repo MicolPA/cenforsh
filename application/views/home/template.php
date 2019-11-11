@@ -16,7 +16,7 @@
 		<div class="container">
 			<div class="row p-1 pt-2 pb-2 pl-4 text-white display-7" >
 				<div class="col-lg-3">
-					<i class="fas fa-home mr-1"></i> Ave. Máximo Gomez esq. José Contrera, plaza Royal frente a Utesa.
+					<i class="fas fa-home mr-1"></i> Ave. Máximo Gomez esq. José Contrera, Plaza Royal Suite 506, frente a Utesa.
 				</div>
 				<div class="col-lg-2">
 					<i class="fas fa-phone-alt mr-1"></i> 809-000-0000
@@ -29,9 +29,9 @@
 					<!-- <a href="" class="mr-4 p-1 " style="background: white"><img src="<?php echo base_url('assets/images/icon/facebook-icon.png') ?>" width='20px' alt=""></a>
 					<a href="" class="mr-4 p-1 " style="background: white"><img src="<?php echo base_url('assets/images/icon/instagram-icon.png') ?>" width='20px' alt=""></a>
 					<a href="" class="mr-4 p-1 " style="background: white"><img src="<?php echo base_url('assets/images/icon/twitter-icon.png') ?>" width='20px' alt=""></a> -->
-					<a href="" class="mr-4" style="color: white;font-size: 14px"><i class="fab fa-facebook-f"></i></a>
-					<a href="https://twitter.com/CenforshRD" class="mr-4" style="color: white;font-size: 14px"><i class="fab fa-twitter"></i></a>
-					<a href="https://www.instagram.com/Cenforshrd/" class="mr-4" style="color: white;font-size: 14px"><i class="fab fa-instagram"></i></a>
+					<a href="" target="_blank" class="mr-4 p-1"><img src="<?php echo base_url('assets/images/icon/facebook-icon-white.png') ?>" width='35px' alt="" style='border-radius: 5px'></a>
+								<a href="https://www.instagram.com/Cenforshrd/" target="_blank" class="mr-4 p-1"><img src="<?php echo base_url('assets/images/icon/instagram-icon.png') ?>" width='35px' alt=""></a>
+								<a href="https://twitter.com/CenforshRD" target="_blank" class="mr-4 p-1"><img src="<?php echo base_url('assets/images/icon/twitter-icon.png') ?>" width='35px' alt=""></a>	
 				</div>
 			</div>
 		</div>
@@ -39,10 +39,11 @@
 
 	<div class="container-fluid">
 		<div class="row align-items-center">
-			<div class="col-md-2 text-center">
+			<div class="col-md-4 text-center">
 				<a href="<?php echo base_url('home') ?>"><img src="<?php echo base_url('assets/images/logo-vertical.png') ?>" width='330px' class='p-2'></a>
+				<!-- <div style="float: right;">18 <br>Años</div> -->
 			</div>
-			<div class="col-md-10">
+			<div class="col-md-9">
 				
 			</div>
 		</div>
@@ -70,7 +71,7 @@
 					        <a class="nav-link" href="<?php echo base_url('home/servicios') ?>"><?php echo strtoupper('Servicios') ?></a>
 					      </li>
 					      <li class="nav-item active mr-3 enlaces-menu">
-					        <a class="nav-link" href="<?php echo base_url('home/articulos') ?>"><?php echo strtoupper('Articulos') ?></a>
+					        <a class="nav-link" href="<?php echo base_url('home/articulos') ?>"><?php echo strtoupper('Articulos y Publicaciones') ?></a>
 					      </li>
 					      <li class="nav-item active mr-3 enlaces-menu">
 					        <a class="nav-link" href="#"><?php echo strtoupper('Actividades') ?></a>
@@ -80,6 +81,9 @@
 					      </li>
 					      <li class="nav-item active mr-3 enlaces-menu">
 					        <a class="nav-link" href="<?php echo base_url('home/programas') ?>"><?php echo strtoupper('Programas') ?></a>
+					      </li>
+					      <li class="nav-item active mr-3 enlaces-menu">
+					        <a class="nav-link" href="<?php echo base_url('home/eventosInternacionales') ?>"><?php echo strtoupper('Eventos Internacionales') ?></a>
 					      </li>
 					    </ul>
 					</div>
@@ -95,7 +99,7 @@
 								<hr class="text-white">
 								<ul class="list-unstyled text-white" style="font-size: 14px">
 									<li><i class="fas fa-home mr-1"></i> Dirección</li>
-									<p>Ave. Máximo Gomez esq. José Contrera, plaza Royal frente a Utesa.</p>
+									<p>Ave. Máximo Gomez esq. José Contrera, Plaza Royal Suite 506, frente a Utesa.</p>
 									<li><i class="fas fa-phone-alt mr-1"></i> Teléfono</li>
 									<p>809-000-0000</p>
 									<li><i class="fas fa-envelope mr-1"></i> Email</li>

@@ -50,10 +50,10 @@
     <div class="col-md-6">
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row no-gutters">
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-12">
             <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 col-xs-12">
             <div class="card-body">
               <h5 class="card-title text-primary font-weight-bold">Card title</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -67,10 +67,10 @@
     <div class="col-md-6">
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row no-gutters">
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-12">
             <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 col-xs-12">
             <div class="card-body">
               <h5 class="card-title text-primary font-weight-bold">Card title</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -101,7 +101,7 @@
       <h3 class="text-"><i class="fas fa-cubes"></i> Lorem ipsum dolor sit.</h3>
       <hr class="mb-5">
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 col-xs-12">
       <div class="card text-white bg-info mb-3">
         <div class="card-header">Header</div>
         <div class="card-body">
@@ -110,7 +110,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 col-xs-12">
       <div class="card text-white bg-success  mb-3">
         <div class="card-header">Header</div>
         <div class="card-body">
@@ -121,7 +121,7 @@
     </div>
 
     
-    <div class="col-md-4">
+    <div class="col-md-4 col-xs-12">
       <div class="card text-white bg-dark mb-3">
         <div class="card-header">Header</div>
         <div class="card-body">
