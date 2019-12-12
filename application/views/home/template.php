@@ -39,12 +39,19 @@
 
 	<div class="container-fluid">
 		<div class="row align-items-center">
-			<div class="col-md-4 text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 text-center">
 				<a href="<?php echo base_url('home') ?>"><img src="<?php echo base_url('assets/images/logo-vertical.png') ?>" width='330px' class='p-2'></a>
 				<!-- <div style="float: right;">18 <br>Años</div> -->
 			</div>
-			<div class="col-md-9">
-				
+			<div class="col-md-6 pt-5">
+				<marquee class='font-weight-bold h4' behavior="" direction="left"><span class=" text-primary">CENTRO DE FORMACIÓN Y SUPERACIÓN HUMANA, INC. (CENFORSH)</span> <span class="h5 ml-3">18 ANIVERSARIO</span></marquee>
+			</div>
+			<div class="col-md-2 text-right" >
+				<img src="<?php echo base_url('assets/images/bandera-rd.gif') ?>" alt="">
+			</div>
+				</div>
 			</div>
 		</div>
 		<div class="">

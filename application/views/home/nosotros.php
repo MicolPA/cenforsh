@@ -17,12 +17,6 @@
 				novecientos noventa y uno (1991); amparado por la Ley NÚMERO 520 del veintiséis (26) de julio 
 				del año mil novecientos veinte (1920), y sus modificaciones que rige las asociaciones sin fines de lucro.
 			</p>
-		</div>
-		<div class="col-md-4">
-			<div class="bg-dark" style="height: 200px"></div>
-		</div>
-
-		<div class="col-md-12 mt-3 text-justify">
 			<p>
 				En la SECRETARIA DE ESTADO DE INDUSTRIA Y COMERCIO (OFICINA NACIONAL DE 
 				LA PROPIEDAD INDUSTRIAL, –ONAPI–) en virtud del artículo 83 de la Ley 20-00 Sobre 
@@ -31,6 +25,15 @@
 				Correspondiente REGISTRADO con el NÚMERO 35665 en fecha quince (15) de Julio de mil 
 				novecientos noventa y uno (1991). 
 			</p>
+		</div>
+		<div class="col-md-4">
+			<div class="" style="height: 330px">
+				<img src="<?php echo base_url('assets/images/') ?>logo.png" alt="CENFORSH" width='100%' height ='100%'>
+			</div>
+		</div>
+
+		<div class="col-md-12 mt-3 text-justify">
+			
 			<p>
 				CERTIFICACIÓN EMITIDA (NÚMERO. 0083-2001) el día doce (12) del mes de febrero POR EL 
 				PODER EJECUTIVO de la República Dominicana donde se establece que el CENTRO DE 
