@@ -30,8 +30,8 @@
 					<a href="" class="mr-4 p-1 " style="background: white"><img src="<?php echo base_url('assets/images/icon/instagram-icon.png') ?>" width='20px' alt=""></a>
 					<a href="" class="mr-4 p-1 " style="background: white"><img src="<?php echo base_url('assets/images/icon/twitter-icon.png') ?>" width='20px' alt=""></a> -->
 					<a href="" target="_blank" class="mr-4 p-1"><img src="<?php echo base_url('assets/images/icon/facebook-icon-white.png') ?>" width='35px' alt="" style='border-radius: 5px'></a>
-								<a href="https://www.instagram.com/Cenforshrd/" target="_blank" class="mr-4 p-1"><img src="<?php echo base_url('assets/images/icon/instagram-icon.png') ?>" width='35px' alt=""></a>
-								<a href="https://twitter.com/CenforshRD" target="_blank" class="mr-4 p-1"><img src="<?php echo base_url('assets/images/icon/twitter-icon.png') ?>" width='35px' alt=""></a>	
+					<a href="https://www.instagram.com/Cenforshrd/" target="_blank" class="mr-4 p-1"><img src="<?php echo base_url('assets/images/icon/instagram-icon.png') ?>" width='35px' alt="" target='_blank'></a>
+					<a href="https://twitter.com/CenforshRD" target="_blank" class="mr-4 p-1"><img src="<?php echo base_url('assets/images/icon/twitter-icon.png') ?>" width='35px' alt="" target='_blank'></a>	
 				</div>
 			</div>
 		</div>
@@ -46,7 +46,7 @@
 				<!-- <div style="float: right;">18 <br>Años</div> -->
 			</div>
 			<div class="col-md-6 pt-5">
-				<marquee class='font-weight-bold h4' behavior="" direction="left"><span class=" text-primary">CENTRO DE FORMACIÓN Y SUPERACIÓN HUMANA, INC. (CENFORSH)</span> <span class="h5 ml-3">18 ANIVERSARIO</span></marquee>
+				<marquee class='font-weight-bold h4' behavior="" direction="left"><span class=" text-primary">CENTRO DE FORMACIÓN Y SUPERACIÓN HUMANA, INC. (CENFORSH)</span> <span class="h5 ml-3" style="color:#00bd00">18 ANIVERSARIO</span></marquee>
 			</div>
 			<div class="col-md-2 text-right" >
 				<img src="<?php echo base_url('assets/images/bandera-rd.gif') ?>" alt="">
@@ -83,14 +83,15 @@
 					      <li class="nav-item active mr-3 enlaces-menu">
 					        <a class="nav-link" href="#"><?php echo strtoupper('Actividades') ?></a>
 					      </li>
-					      <li class="nav-item active mr-3 enlaces-menu">
-					        <a class="nav-link font-weight-bold" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EFTN85RYKQGQA&source=url" target="_blank"><?php echo strtoupper('Donar') ?></a>
-					      </li>
+					      
 					      <li class="nav-item active mr-3 enlaces-menu">
 					        <a class="nav-link" href="<?php echo base_url('home/programas') ?>"><?php echo strtoupper('Programas') ?></a>
 					      </li>
 					      <li class="nav-item active mr-3 enlaces-menu">
 					        <a class="nav-link" href="<?php echo base_url('home/eventosInternacionales') ?>"><?php echo strtoupper('Eventos Internacionales') ?></a>
+					      </li>
+					      <li class="nav-item active mr-3 enlaces-menu">
+					        <a class="nav-link font-weight-bold" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EFTN85RYKQGQA&source=url" target="_blank"><?php echo strtoupper('Donar') ?></a>
 					      </li>
 					    </ul>
 					</div>
@@ -122,8 +123,8 @@
 								<a href="" class="mr-4 display-4 text-danger"><i class="fab fa-instagram"></i></a> -->
 
 								<a href="" target="_blank" class="mr-4 p-1"><img src="<?php echo base_url('assets/images/icon/facebook-icon.png') ?>" width='35px' alt=""></a>
-								<a href="https://www.instagram.com/Cenforshrd/" target="_blank" class="mr-4 p-1"><img src="<?php echo base_url('assets/images/icon/instagram-icon.png') ?>" width='35px' alt=""></a>
-								<a href="https://twitter.com/CenforshRD" target="_blank" class="mr-4 p-1"><img src="<?php echo base_url('assets/images/icon/twitter-icon.png') ?>" width='35px' alt=""></a>	
+								<a href="https://www.instagram.com/Cenforshrd/" target="_blank" class="mr-4 p-1"><img src="<?php echo base_url('assets/images/icon/instagram-icon.png') ?>" width='35px' alt="" target='_blank'></a>
+								<a href="https://twitter.com/CenforshRD" target="_blank" class="mr-4 p-1"><img src="<?php echo base_url('assets/images/icon/twitter-icon.png') ?>" width='35px' alt="" target='_blank'></a>	
 							</div>
 						</div>
 					</div>
