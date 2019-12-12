@@ -77,7 +77,7 @@
 					        <a class="nav-link" href="#"><?php echo strtoupper('Actividades') ?></a>
 					      </li>
 					      <li class="nav-item active mr-3 enlaces-menu">
-					        <a class="nav-link" href="<?php echo base_url('home/donaciones') ?>"><?php echo strtoupper('Donaciones') ?></a>
+					        <a class="nav-link font-weight-bold" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EFTN85RYKQGQA&source=url" target="_blank"><?php echo strtoupper('Donar') ?></a>
 					      </li>
 					      <li class="nav-item active mr-3 enlaces-menu">
 					        <a class="nav-link" href="<?php echo base_url('home/programas') ?>"><?php echo strtoupper('Programas') ?></a>
