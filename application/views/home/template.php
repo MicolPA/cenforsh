@@ -67,9 +67,9 @@
 					      <li class="nav-item active mr-3 enlaces-menu">
 					        <a class="nav-link" href="<?php echo base_url('home/nosotros') ?>"><?php echo strtoupper('QUIENES SOMOS') ?></a>
 					      </li>
-					      <li class="nav-item active mr-3 enlaces-menu">
-					        <a class="nav-link" href="<?php echo base_url('home/servicios') ?>"><?php echo strtoupper('Servicios') ?></a>
-					      </li>
+					     <!--  <li class="nav-item active mr-3 enlaces-menu">
+					        <a class="nav-link" href="<?php //echo base_url('home/servicios') ?>"><?php //echo strtoupper('Servicios') ?></a>
+					      </li> -->
 					      <li class="nav-item active mr-3 enlaces-menu">
 					        <a class="nav-link" href="<?php echo base_url('home/articulos') ?>"><?php echo strtoupper('Articulos y Publicaciones') ?></a>
 					      </li>
@@ -77,7 +77,7 @@
 					        <a class="nav-link" href="#"><?php echo strtoupper('Actividades') ?></a>
 					      </li>
 					      <li class="nav-item active mr-3 enlaces-menu">
-					        <a class="nav-link" href="#"><?php echo strtoupper('Donaciones') ?></a>
+					        <a class="nav-link" href="<?php echo base_url('home/donaciones') ?>"><?php echo strtoupper('Donaciones') ?></a>
 					      </li>
 					      <li class="nav-item active mr-3 enlaces-menu">
 					        <a class="nav-link" href="<?php echo base_url('home/programas') ?>"><?php echo strtoupper('Programas') ?></a>
