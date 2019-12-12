@@ -7,26 +7,27 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="<?php echo base_url('assets/images/galeria/fundacion-cenforsh-5.jpg') ?>" class="d-block w-100" height='600px '>
+        <img src="<?php echo base_url('assets/images/galeria/IMG-20170606-WA0056.jpg') ?>" class="d-block w-100" height='720 '>
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="display-3" style="text-shadow: 2px 2px 4px #000000;">CENFORSH</h3>
+          <!-- <p class="display" style="text-shadow: 2px 2px 4px #000000;font-size:20px">Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="<?php echo base_url('assets/images/galeria/fundacion-cenforsh-8.jpg') ?>" class="d-block w-100" height='720 '>
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="display-3" style="text-shadow: 2px 2px 4px #000000;">CENFORSH</h3>
+          <!-- <p class="display" style="text-shadow: 2px 2px 4px #000000;font-size:20px">Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <img src="<?php echo base_url('assets/images/galeria/fundacion-cenforsh-5.jpg') ?>" class="d-block w-100" height='720 '>
         <div class="carousel-caption d-none d-md-block">
           <h3 class="display-3" style="text-shadow: 2px 2px 4px #000000;">CENFORSH</h3>
           <p class="display" style="text-shadow: 2px 2px 4px #000000;font-size:24px">Estamos muy agradecidos y creemos que esto debería fortalecerse aún más</p>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="<?php echo base_url('assets/images/galeria/fundacion-cenforsh-3.jpg') ?>" class="d-block w-100" height='600px '>
-        <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-3" style="text-shadow: 2px 2px 4px #000000;">CENFORSH</h3>
-          <p class="display" style="text-shadow: 2px 2px 4px #000000;font-size:20px">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="<?php echo base_url('assets/images/galeria/fundacion-cenforsh-6.jpg') ?>" class="d-block w-100" height='600px '>
-        <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-3" style="text-shadow: 2px 2px 4px #000000;">CENFORSH</h3>
-          <p class="display" style="text-shadow: 2px 2px 4px #000000;font-size:20px">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </div>
-      </div>
+      
     </div>
     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
