@@ -93,7 +93,7 @@
 					<span class="icon-bar"></span>
 				</button>
 						<a class="navbar-brand" href="<?php echo base_url('/') ?>">
-							<h1><!-- <span class="fa fa-signal" aria-hidden="true"> --></span>CENFORSH <label >14 AÑOS</label></h1>
+							<h1><!-- <span class="fa fa-signal" aria-hidden="true"> --></span>CENFORSH <label >18 AÑOS</label></h1>
 							<!-- <h1><img src="<?php //echo base_url('assets/images/logo-vertical.png') ?>" width='330px' class='p-2'></h1> -->
 						</a>
 					</div>
@@ -165,7 +165,7 @@
 				<div class="col-md-9 footer_bottom_grid">
 					<div class="footer_bottom1">
 						<a href="index.html">
-							<h2>CENFORSH <label>14 AÑOS</label></h2>
+							<h2>CENFORSH <label>18 AÑOS</label></h2>
 						</a>
 						<p>© CENFORSH | Design by <a href="http://w3layouts.com">W3layouts</a></p>
 					</div>
