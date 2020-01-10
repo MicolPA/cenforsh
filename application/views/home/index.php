@@ -1,135 +1,179 @@
-<div class="bd-example">
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="<?php echo base_url('assets/images/galeria/IMG-20170606-WA0056.jpg') ?>" class="d-block w-100" height='720 '>
-        <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-3" style="text-shadow: 2px 2px 4px #000000;">CENFORSH</h3>
-          <!-- <p class="display" style="text-shadow: 2px 2px 4px #000000;font-size:20px">Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="<?php echo base_url('assets/images/galeria/fundacion-cenforsh-8.jpg') ?>" class="d-block w-100" height='720 '>
-        <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-3" style="text-shadow: 2px 2px 4px #000000;">CENFORSH</h3>
-          <!-- <p class="display" style="text-shadow: 2px 2px 4px #000000;font-size:20px">Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
-        </div>
-      </div>
-      <div class="carousel-item ">
-        <img src="<?php echo base_url('assets/images/galeria/fundacion-cenforsh-5.jpg') ?>" class="d-block w-100" height='720 '>
-        <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-3" style="text-shadow: 2px 2px 4px #000000;">CENFORSH</h3>
-          <p class="display" style="text-shadow: 2px 2px 4px #000000;font-size:24px">Estamos muy agradecidos y creemos que esto debería fortalecerse aún más</p>
-        </div>
-      </div>
-      
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-md-12">
-      <h3 class="text-primary"><i class="fas fa-cube"></i> Lorem ipsum dolor</h3>
-      <hr>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6">
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-md-4 col-xs-12">
-            <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
-          </div>
-          <div class="col-md-8 col-xs-12">
-            <div class="card-body">
-              <h5 class="card-title text-primary font-weight-bold">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+	<!--/tags -->
+	
+	<!--//tags -->
 
-    <div class="col-md-6">
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-          <div class="col-md-4 col-xs-12">
-            <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
-          </div>
-          <div class="col-md-8 col-xs-12">
-            <div class="card-body">
-              <h5 class="card-title text-primary font-weight-bold">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1" class=""></li>
+			<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+			<li data-target="#myCarousel" data-slide-to="3" class=""></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div class="container">
+					<div class="carousel-caption">
+						<h3>Estamos muy agradecidos</h3>
+						<p>Creemos que esto debería fortalecerse aún más</p>
+						<!-- <div class="agileits-button top_ban_agile">
+							<a class="btn btn-primary btn-lg" href="single.html">Read More »</a>
+						</div> -->
+					</div>
+				</div>
+			</div>
+			<div class="item item2">
+				<div class="container">
+					<div class="carousel-caption">
+						<h3>Queremos ser un referente Nacional e Internacional</h3>
+						<p>De Servicios de Calidad para la formación integral del ser humano.</p>
+						<!-- <div class="agileits-button top_ban_agile">
+							<a class="btn btn-primary btn-lg" href="single.html">Read More »</a>
+						</div> -->
+					</div>
+				</div>
+			</div>
+			<div class="item item3">
+				<div class="container">
+					<div class="carousel-caption">
+						<h3>Queremos Promover la formación y superación</h3>
+						<p> en los diferentes aspectos que conforman el desarrollo integral del ser humano como ente social..</p>
+						<!-- <div class="agileits-button top_ban_agile">
+							<a class="btn btn-primary btn-lg" href="single.html">Read More »</a>
+						</div> -->
+					</div>
+				</div>
+			</div>
+			<div class="item item4">
+				<div class="container">
+					<div class="carousel-caption">
 
-</div>
+						<h3>Inspiring leadership <span>innovation.</span></h3>
+						<p>Hire. Train. Retain.</p>
+						<!-- <div class="agileits-button top_ban_agile">
+							<a class="btn btn-primary btn-lg scroll" href="#welcome" role="button">Read More »</a>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="fa fa-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="fa fa-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+		<!-- The Modal -->
+	</div>
+	<!--//banner -->
 
-<div class="container-fluid mb-5 mt-5"> 
-  <div class="row shadow align-items-center" style="background-image: url(<?php echo base_url('assets/images/stock/meeting_1-dark.jpg') ?>);height: 400px;background-repeat: no-repeat;background-size: cover;">
-    <div class="container">
-      <div class="col-md-12">
-      <h3 class="text-white text-center mb-4 display display-4" style="text-shadow: 2px 2px 4px #000000;">Nuestro objetivo</h3>
-      <p class="text-white text-center display" style="text-shadow: 2px 2px 4px #000000;font-size: 22px">Poner al servicio de los más vulnerables y deprimidos de la sociedad los conocimientos en los diferentes aspectos que conforman el desarrollo integral del Ser Humano, sean estos científicos, profesionales, técnicos, vocacionales, culturales, deportivos, asistenciales, entre otros.</p>
-    </div>
-    </div>
-  </div>
-</div>
+	<!--/search_form -->
+	<!--//search_form -->
+	<div class="banner-bottom">
+		<div class="container">
+			<div class="tittle_head_w3ls">
+				<h3 class="tittle">Acerca de Nosotros</h3>
+			</div>
+			<div class="inner_sec_grids_info_w3ls">
+				<div class="col-md-6 banner_bottom_left">
+					<h4>EL CENTRO DE FORMACION Y SUPERACION HUMANA, INC.<span>(CENFORSH) </span></h4>
+					<p>es fundado el 
+				día cinco (5) del mes de Mayo del año mil novecientos noventa y uno (1991) en la ciudad de Santo 
+				Domingo de Guzmán, D.N., capital de la República Dominicana y es incorporada legalmente 
+				mediante el Decreto del Poder Ejecutivo NÚMERO 386-91 de fecha once (11) de Octubre de mil 
+				novecientos noventa y uno (1991); amparado por la Ley NÚMERO 520 del veintiséis (26) de julio 
+				del año mil novecientos veinte (1920), y sus modificaciones que rige las asociaciones sin fines de lucro.</p>
+					<!-- <ul class="some_agile_facts">
+						<li><span class="fa fa-briefcase" aria-hidden="true"></span><label>80</label> Corporate Programs</li>
+						<li><span class="fa fa-graduation-cap" aria-hidden="true"></span><label>49</label> Training Courses</li>
+						<li><span class="fa fa-user" aria-hidden="true"></span><label>88</label> Strategic Partners</li>
+						<li><span class="fa fa-line-chart" aria-hidden="true"></span><label>436</label> Companies We Helped</li>
+					</ul> -->
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 banner_bottom_right">
+					<div class="agileits_w3layouts_banner_bottom_grid">
+						<img src="<?php echo base_url('assets/images/') ?>logo.png" alt=" " class="img-responsive" />
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <h3 class="text-"><i class="fas fa-cubes"></i> Lorem ipsum dolor sit.</h3>
-      <hr class="mb-5">
-    </div>
-    <div class="col-md-4 col-xs-12">
-      <div class="card text-white bg-info mb-3">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-          <h5 class="card-title">Info card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-xs-12">
-      <div class="card text-white bg-success  mb-3">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-          <h5 class="card-title">Danger card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
+		</div>
+	</div>
+	<!-- //banner-bottom -->
+	<div class="team_work_agile">
+		<h4>Ser un referente Nacional e Internacional de Servicios de Calidad para la formación integral del ser humano.</h4>
+	</div>
+	<!-- services -->
+	<div class="services" id="services">
+		<div class="container">
+			<div class="tittle_head_w3ls">
+				<h3 class="tittle">Nuestros Programas</h3>
+			</div>
+			<div class="inner_sec_grids_info_w3ls">
+				<div class="col-md-3 services-left">
+					<div class="services-left-top">
 
-    
-    <div class="col-md-4 col-xs-12">
-      <div class="card text-white bg-dark mb-3">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-          <h5 class="card-title">Dark card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+						<h5>Programas sociales</h5>
+
+					</div>
+					<div class="services-left-top services-left-top1">
+
+						<h5>Formación y educación</h5>
+
+					</div>
+				</div>
+				<div class="col-md-6 services-middle">
+					<div class="services-middle-img">
+						<img src="<?php echo base_url('assets/images/') ?>process.jpg" alt="" />
+					</div>
+					<div class="services-middle-grids">
+						<div class="col-md-6 services-middle-left">
+							<div class="services-left-top">
+
+								<h5>Simposio</h5>
+
+							</div>
+						</div>
+						<div class="col-md-6 services-middle-left">
+							<div class="services-left-top">
+
+								<h5>Charlas</h5>
+
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-3 services-left">
+					<div class="services-left-top">
+
+						<h5>Programas de drogas</h5>
+
+					</div>
+					<div class="services-left-top services-left-top1">
+
+						<h5>Conferencias y Seminarios</h5>
+
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+	
+
+	<a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- js -->
+	
