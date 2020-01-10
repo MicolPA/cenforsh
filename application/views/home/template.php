@@ -102,7 +102,7 @@
 						<nav class="link-effect-2" id="link-effect-2">
 							<ul class="nav navbar-nav">
 								<li><a href="<?php echo base_url('/home/nosotros') ?>">Nosotros</a></li>
-								<li><a href="<?php echo base_url('/home/nosotros') ?>">Articulos y publicaciones</a></li>
+								<li><a href="<?php echo base_url('/home/') ?>">Articulos y publicaciones</a></li>
 								<li><a href="<?php echo base_url('/home/programas') ?>">Programas</a></li>
 								<li><a href="<?php echo base_url('/home/eventosInternacionales') ?>">Eventos Internacionales</a></li>
 								<li>
