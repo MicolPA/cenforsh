@@ -19,6 +19,17 @@
 			window.scrollTo(0, 1);
 		}
 	</script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156455199-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-156455199-1');
+	</script>
+
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/bootstrap.css') ?>" rel="stylesheet" type="text/css" media="all">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style.css') ?>" rel="stylesheet" type="text/css" media="all">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/font-awesome.css') ?>" rel="stylesheet" type="text/css" media="all">
