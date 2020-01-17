@@ -6,7 +6,9 @@
 <div class="container">
 	<div class="row mt-5">
 		<div class="col-md-12">
-			<h1 class="display-4 text-primary mb-4" style="margin-top: 3rem">Eventos Internacionales</h1>
+			<div class="tittle_head_w3ls" style="margin-top: 3rem">
+				<h3 class="tittle" style="text-align: left !important">Eventos Internacionales</h3>
+			</div>
 			<hr>	
 			<!-- <h2 class="display-5 text-dark mb-3 mt-4">Drug Free World at the United Nations</h2>-->	
 		</div>

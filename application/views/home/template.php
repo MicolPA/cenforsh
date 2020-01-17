@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title><?php echo $title ?></title>
+	<link rel="icon" type="image/png" href="<?php echo base_url('assets/images/logo.png') ?>">
 	
 	<!-- CSS -->
 	<!-- <link rel="stylesheet" type="text/css" href="<?php //echo base_url('assets/css/bootstrap.min.css') ?>">
@@ -37,61 +38,13 @@
 	<link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic'
 	    rel='stylesheet' type='text/css'>
 </head>
-<body>
-	
-	<!-- <div class="container-fluid bg-blue">
-		<div class="container">
-			<div class="row p-1 pt-2 pb-2 pl-4 text-white display-7" >
-				<div class="col-lg-3">
-					<i class="fas fa-home mr-1"></i> Ave. Máximo Gomez esq. José Contrera, Plaza Royal Suite 506, frente a Utesa.
-				</div>
-				<div class="col-lg-2">
-					<i class="fas fa-phone-alt mr-1"></i> 809-000-0000
-				</div>
-				<div class="col-lg-3">
-					<i class="fas fa-envelope mr-1"></i> cenforsh.org.do@gmail.com
-				</div>
-				<div class="col-lg-4 text-center">
-					
-					 <a href="" class="mr-4 p-1 " style="background: white"><img src="<?php //echo base_url('assets/images/icon/facebook-icon.png') ?>" width='20px' alt=""></a>
-					<a href="" class="mr-4 p-1 " style="background: white"><img src="<?php //echo base_url('assets/images/icon/instagram-icon.png') ?>" width='20px' alt=""></a>
-					<a href="" class="mr-4 p-1 " style="background: white"><img src="<?php //echo base_url('assets/images/icon/twitter-icon.png') ?>" width='20px' alt=""></a> -->
-					<a href="" target="_blank" class="mr-4 p-1"><img src="<?php //echo base_url('assets/images/icon/facebook-icon-white.png') ?>" width='35px' alt="" style='border-radius: 5px'></a>
-					<a href="https://www.instagram.com/Cenforshrd/" target="_blank" class="mr-4 p-1"><img src="<?php //echo base_url('assets/images/icon/instagram-icon.png') ?>" width='35px' alt="" target='_blank'></a>
-					<a href="https://twitter.com/CenforshRD" target="_blank" class="mr-4 p-1"><img src="<?php //echo base_url('assets/images/icon/twitter-icon.png') ?>" width='35px' alt="" target='_blank'></a>	
-				</div>
-			</div>
-		</div>
-	</div>
+<style>
+	.header{
+		  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 
-	<div class="container-fluid">
-		<!-- <div class="row align-items-center">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4 text-center">
-				<a href="<?php //echo base_url('home') ?>"><img src="<?php echo base_url('assets/images/logo-vertical.png') ?>" width='330px' class='p-2'></a>
-				 <div style="float: right;">18 <br>Años</div> -->
-			</div>
-			<!-- <div class="col-md-6 pt-5">
-				<marquee class='font-weight-bold h4' behavior="" direction="left"><span class=" text-primary">CENTRO DE FORMACIÓN Y SUPERACIÓN HUMANA, INC. (CENFORSH)</span> <span class="h5 ml-3" style="color:#00bd00">18 ANIVERSARIO</span></marquee>
-			</div>
-			<div class="col-md-2 text-right" >
-				<img src="<?php //echo base_url('assets/images/bandera-rd.gif') ?>" alt="">
-			</div>
-				</div>
-			</div>
-		</div> -->
-		<div class="">
-			<div class="row">
-			<!-- <div class="col-md-2 bg-light">
-				<ul class="list-unstyled bg-light">
-				  <li class="bg-light pt-2 pb-2"><a href="">Actividades</a></li>
-				  <li class="bg-light pt-2 pb-2"><a href="">Convenios</a></li>
-				  <li class="bg-light pt-2 pb-2"><a href="">Programas</a></li>
-				</ul>
-			</div> -->
-			<div class="col-md-12 p-0">
-				<!-- header -->
+	}
+</style>
+<body>
 	<div class="header" id="home">
 		<div class="content white agile-info">
 			<nav class="navbar navbar-default" role="navigation">
@@ -128,77 +81,83 @@
 			</nav>
 		</div>
 	</div>
-	<!-- loading view -->
-	<?php $this->load->view($view);?>
+	
+	<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12" style="padding:0px">
+					<!-- header -->
+		
+					<!-- loading view -->
+					<?php $this->load->view($view);?>
 
-	<!-- footer -->
-	<div class="footer_top_agileits">
-		<div class="container">
-			<div class="col-md-4 footer_grid">
-				<h3>CENFORSH</h3>
-				<p>El patrimonio del centro estará constituido por los bienes de cualquier naturaleza que el centro adquiera, titulo de cualquier forma lícita en el desarrollo de sus actividades en pro de la sociedad.
-				</p>
-			</div>
-			<!-- <div class="col-md-4 footer_grid">
-				<h3>Redes Sociales</h3>
-				<ul class="footer_grid_list">
-					<li><i class="fa fa-facebook-official" aria-hidden="true"></i></i>
-						<a href="single.html" >Lorem ipsum neque vulputate </a>
-					</li>
-					<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-						<a href="single.html" >Dolor amet sed quam vitae</a>
-					</li>
-					<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-						<a href="single.html" >Lorem ipsum neque, vulputate </a>
-					</li>
-					<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-						<a href="single.html" >Dolor amet sed quam vitae</a>
-					</li>
-					<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-						<a href="single.html" >Lorem ipsum neque, vulputate </a>
-					</li>
-				</ul>
-			</div> -->
-			<div class="col-md-4 footer_grid">
-				<h3>Contact Info</h3>
-				<ul class="address">
-					<li><i class="fa fa-map-marker" aria-hidden="true"></i>Ave. Máximo Gomez esq. José Contrera, Plaza Royal Suite 506, frente a Utesa.</li>
-					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:cenforsh.org.do@gmail.com">cenforsh.org.do@gmail.com</a></li>
-					<li><i class="fa fa-phone" aria-hidden="true"></i>809-000-0000</li>
-				</ul>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-	<div class="footer_w3ls">
-		<div class="container">
-			<div class="footer_bottom">
-				<div class="col-md-9 footer_bottom_grid">
-					<div class="footer_bottom1">
-						<a href="index.html">
-							<h2>CENFORSH <label>18 AÑOS</label></h2>
-						</a>
-						<p>© CENFORSH | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+					<!-- footer -->
+					<div class="footer_top_agileits">
+						<div class="container">
+							<div class="col-md-6 footer_grid">
+								<h3>CENFORSH</h3>
+								<p>El patrimonio del centro estará constituido por los bienes de cualquier naturaleza que el centro adquiera, titulo de cualquier forma lícita en el desarrollo de sus actividades en pro de la sociedad.
+								</p>
+							</div>
+							<!-- <div class="col-md-4 footer_grid">
+								<h3>Redes Sociales</h3>
+								<ul class="footer_grid_list">
+									<li><i class="fa fa-facebook-official" aria-hidden="true"></i></i>
+										<a href="single.html" >Lorem ipsum neque vulputate </a>
+									</li>
+									<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+										<a href="single.html" >Dolor amet sed quam vitae</a>
+									</li>
+									<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+										<a href="single.html" >Lorem ipsum neque, vulputate </a>
+									</li>
+									<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+										<a href="single.html" >Dolor amet sed quam vitae</a>
+									</li>
+									<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+										<a href="single.html" >Lorem ipsum neque, vulputate </a>
+									</li>
+								</ul>
+							</div> -->
+							<div class="col-md-6 footer_grid">
+								<h3>Información de Contacto</h3>
+								<ul class="address">
+									<li><i class="fa fa-map-marker" aria-hidden="true"></i>Ave. Máximo Gomez esq. José Contrera, Plaza Royal Suite 506, frente a Utesa.</li>
+									<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:cenforsh.org.do@gmail.com">cenforsh.org.do@gmail.com</a></li>
+									<li><i class="fa fa-phone" aria-hidden="true"></i>809-000-0000</li>
+								</ul>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-3 footer_bottom_grid">
-					<h6>Follow Us</h6>
-					<div class="social">
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-rss"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
+					<div class="footer_w3ls">
+						<div class="container">
+							<div class="footer_bottom">
+								<div class="col-md-9 footer_bottom_grid">
+									<div class="footer_bottom1">
+										<a href="index.html">
+											<h2><img src="<?= base_url('assets/images/logo.png') ?>" width='66px'> CENFORSH</h2>
+										</a>
+										<p style="padding-left: 76px;font-size: 10px">© CENFORSH | Design by <a href="http://w3layouts.com" target="_blank">W3layouts</a></p>
+									</div>
+								</div>
+								<div class="col-md-3 footer_bottom_grid">
+									<h6>Follow Us</h6>
+									<div class="social">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-rss"></i></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
 
-		</div>
-	</div>
-	<!-- //footer -->
+						</div>
+					</div>
+		<!-- //footer -->
+				</div>
 			</div>
-		</div>
 		</div>
 	</div>
 
