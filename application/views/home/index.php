@@ -44,7 +44,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="container">
 					<div class="carousel-caption">
 						<h3>Queremos Promover la formación y superación</h3>
-						<p> en los diferentes aspectos que conforman el desarrollo integral del ser humano como ente social..</p>
+						<p> En los diferentes aspectos que conforman el desarrollo integral del ser humano como ente social..</p>
 						<!-- <div class="agileits-button top_ban_agile">
 							<a class="btn btn-primary btn-lg" href="single.html">Read More »</a>
 						</div> -->
@@ -55,11 +55,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="container">
 					<div class="carousel-caption">
 
-						<h3>Inspiring leadership <span>innovation.</span></h3>
-						<p>Hire. Train. Retain.</p>
-						<!-- <div class="agileits-button top_ban_agile">
-							<a class="btn btn-primary btn-lg scroll" href="#welcome" role="button">Read More »</a>
-						</div> -->
 					</div>
 				</div>
 			</div>
