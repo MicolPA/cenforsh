@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title><?php echo $title ?></title>
+	<title><?php echo $title ?> - CENFORSH</title>
 	<link rel="icon" type="image/png" href="<?php echo base_url('assets/images/logo.png') ?>">
 	
 	<!-- CSS -->
@@ -66,7 +66,7 @@
 						<nav class="link-effect-2" id="link-effect-2">
 							<ul class="nav navbar-nav">
 								<li><a href="<?php echo base_url('/home/nosotros') ?>">Nosotros</a></li>
-								<li><a href="<?php echo base_url('/home/') ?>">Articulos y publicaciones</a></li>
+								<li><a href="<?php echo base_url('/home/convenios') ?>">Convenios</a></li>
 								<li><a href="<?php echo base_url('/home/programas') ?>">Programas</a></li>
 								<li><a href="<?php echo base_url('/home/eventosInternacionales') ?>">Eventos Internacionales</a></li>
 								<li>

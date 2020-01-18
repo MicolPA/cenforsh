@@ -13,7 +13,7 @@ class Home extends CI_Controller {
 	public function nosotros(){
 
 		$data['view'] = 'home/nosotros';
-		$data['title'] = 'Inicio';
+		$data['title'] = 'Nosotros';
 		$this->load->view('home/template', $data);
 
 	}
@@ -21,7 +21,7 @@ class Home extends CI_Controller {
 	public function servicios(){
 
 		$data['view'] = 'home/servicios';
-		$data['title'] = 'Inicio';
+		$data['title'] = 'Servicios';
 		$this->load->view('home/template', $data);
 
 	}
@@ -29,7 +29,13 @@ class Home extends CI_Controller {
 	public function programas(){
 
 		$data['view'] = 'home/programas';
-		$data['title'] = 'Inicio';
+		$data['title'] = 'Programas';
+		$this->load->view('home/template', $data);
+	}
+	public function convenios(){
+
+		$data['view'] = 'home/convenios';
+		$data['title'] = 'Convenios';
 		$this->load->view('home/template', $data);
 	}
 
